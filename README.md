@@ -6,7 +6,7 @@ This project analyzes user behavior and feature adoption in a SaaS product to ge
 ---
 
 ## Dataset
-- **Source:** [SaaS Company Data Analysis](https://medium.com/@yohanesvincentpangestu/saas-company-data-analysis-5325e7023e09)  
+- **Source:** [SaaS Company Data Analysis] 
 - **Contents:**
   - User IDs, signup dates, subscription types
   - Feature usage logs (frequency, duration)
