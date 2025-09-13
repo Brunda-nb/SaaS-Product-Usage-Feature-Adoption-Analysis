@@ -1,67 +1,16 @@
-# SaaS Product Usage & Feature Adoption Analysis
+Saas-Company-Data-Analysis
+The SaaS company is a company that is selling sales and marketing software to other companies (B2B). They have collected transactions data from their customer. They hire a data scientist to analyze the dataset so that they can gain more insight and improve company future perfomance.
 
-## Overview
-This project analyzes user behavior and feature adoption in a SaaS product to generate actionable insights for product improvement, retention strategies, and revenue optimization. It demonstrates end-to-end data analysis skills, dashboard creation, and alignment with **data observability principles**.
+The dataset is saved and can be viewed in SaaS-Sales.csv
+Those dataset has been analyzed and can be viewed in Vincent_DataAnalysis_SaaSCompany.ipynb
+Both of those file are in this repositories.
 
----
+The analysis are conducted by following various step as follows:
 
-## Dataset
-- **Source:** [SaaS Company Data Analysis] 
-- **Contents:**
-  - User IDs, signup dates, subscription types
-  - Feature usage logs (frequency, duration)
-  - Transactions / revenue data
-  - Support interactions (optional)
-
----
-
-## Tools & Technologies
-- **Data Extraction & Transformation:** SQL, Python (Pandas)
-- **Visualization & Dashboard:** Tableau / Power BI
-- **Automation / Pipeline (Optional):** Python scripts for periodic data cleaning and aggregation
-
----
-
-## Analysis Workflow
-
-1. **Data Cleaning & Transformation (ETL)**
-   - Handled missing or inconsistent data
-   - Created key metrics: DAU, WAU, MAU, retention, churn, feature adoption rate
-   - Aggregated monthly revenue and subscription upgrades
-
-2. **Exploratory Analysis**
-   - Identified top features by usage frequency
-   - Tracked user engagement across cohorts
-   - Analyzed retention and churn trends
-
-3. **Visualization**
-   - Dashboard components:
-     - **User Engagement:** DAU, WAU, MAU trends
-     - **Feature Adoption:** Heatmaps of most/least used features
-     - **Revenue Metrics:** ARR/MRR by cohort
-     - **Retention & Churn:** Cohort retention curves
-
-4. **Insights & Recommendations**
-   - Highlighted low-adoption features needing UX improvements
-   - Identified high-value cohorts for upsell campaigns
-   - Detected anomalies in usage trends for further investigation
-   - Suggested strategies to improve trial-to-paid conversions
-
-5. **Optional Automation Component**
-   - Scheduled Python scripts to update dashboards automatically from raw logs
-   - Simulated alerts for unusual spikes or drops in engagement metrics
-
----
-
-## Key Achievements
-- Enabled visibility into feature adoption, aiding prioritization of product enhancements
-- Identified top 3 churn drivers, providing potential retention strategies
-- Built interactive dashboards for management, supporting data-driven decisions
-- Demonstrated data reliability and observability, aligning with Coalesce’s mission
-
----
-
-## Future Improvements
-- Implement real-time monitoring dashboards
-- Integrate anomaly detection for automated alerts
-- Expand dataset to include marketing campaigns and user feedback for richer insights
+Step 1: Describe the Problem Statement.
+Step 2: Data Understanding.
+Step 3: Data Preprocesing, this step include: Managing data type, checking any mischaracterization, handling outliers, checking any out of range values, fill or drop missing values, delete duplicate data.
+Step 4: Data analysis, Visualization, Insight and Recommendation for each problem statement.
+Step 5: Export Final Dataframes into excel.
+For visualization using tableau can be view in the link below:
+https://public.tableau.com/views/ProfitablePathsProductsIndustriesRegions/AStrategicSaaSOutlook?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
